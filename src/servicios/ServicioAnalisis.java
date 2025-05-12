@@ -1,4 +1,5 @@
 package servicios;
+import entidades.RegistroTemperatura;
 
 import java.time.LocalDate;
 import java.util.Comparator;
@@ -6,8 +7,6 @@ import java.util.List;
 import java.util.Map;
 import java.util.Optional;
 import java.util.stream.Collectors;
-
-import entidades.RegistroTemperatura;
 
 public class ServicioAnalisis {
     public static Map<String, Double> promedioPorCiudad(
